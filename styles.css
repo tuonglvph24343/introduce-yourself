@@ -1,0 +1,128 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(img/A.jpg) no-repeat;
+  background-size: cover;
+}
+.box{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.607);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+  overflow: hidden;
+  border-radius: 10px;
+  text-align: center;
+}
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  transition: 0.25s;
+  transform: translateY(25px);
+  border: 4px solid pink;
+  cursor: pointer;
+}
+.box-img:hover{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  /* border: unset; */
+  transform: unset;
+}
+img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover;
+  object-position: center; */
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p {
+  text-align: center;
+  margin: 0; /* Loại bỏ thụt lùi mặc định của đoạn văn */
+  padding-top: 10px; /* Loại bỏ khoảng cách thừa */
+  font-family: 'Century Gothic',sans-serif;
+}
+
+.box p > span {
+  display: block; /* Biến mỗi phần thông tin thành một dòng riêng lẻ */
+  margin: 20px 0; /* Đặt khoảng cách trên và dưới cho mỗi dòng */
+  text-align: left; /* Căn lề trái cho mỗi dòng */
+}
+
+
+ul{
+  margin: 0;
+  padding: 0;
+  
+}
+.box li{
+  display: inline-block;
+  margin: 25px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
+}
+button {
+  outline: none;
+  border: none;
+  color: white;
+  background-color: transparent;
+  border: 1px solid palevioletred;
+  padding: 10px 20px;
+  border-radius: inherit;
+  cursor: pointer;
+  transition: 0.25s;
+  font-size: 20px;
+  font-family: 'Century Gothic',sans-serif;
+}
+
+button:hover {
+  background-color: pink
+}
+/* a:hover{
+  color: pink
+} */
+.info {
+  text-align: center;
+  margin: 0; /* Loại bỏ thụt lùi mặc định của đoạn văn */
+  padding: 0; /* Loại bỏ khoảng cách thừa */
+}
+
+.info span {
+  display: block; /* Biến mỗi phần thông tin thành một dòng riêng lẻ */
+  margin: 15px 0; /* Đặt khoảng cách 2px ở phía trên và dưới cho mỗi dòng */
+}
+@media (max-width: 768px) {
+  .box {
+      padding: 10px;
+  }
+
+  .box h1 {
+      font-size: 24px;
+  }
+
+  .box h5 {
+      font-size: 18px;
+  }
+}

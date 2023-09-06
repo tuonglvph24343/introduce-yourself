@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Thêm thẻ meta này để điều chỉnh phản ứng -->
+    <link rel="stylesheet" href="/styles.css">
+    <title>Personal WebSite</title>
+</head>
+
+<body>
+    <div class="box">
+        <img src="img/FB_IMG_1687454292905.jpg" alt="" class="box-img">
+        <h1>
+            Lê Tường
+        </h1>
+        <h5>
+            Web Back-end - Web C#
+        </h5>
+        <div class="info">
+            <span>Năm sinh: 08/07/2003</span>
+            <span>Quê quán: Thanh Hoá</span>
+            <span>Trường học: Fpt poly</span>
+            <span>Ngành: Thiết kế website </span>
+        </div>
+        <ul>
+            <li><a href="https://www.facebook.com/nijia.tng"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/lee.tuong3/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://github.com/tuonglvph24343/"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        </ul>
+        <button id="contactButton" onclick="showPhoneNumber()">Liên hệ</button>
+    </div>
+    <script>
+      function showPhoneNumber() {
+            var phoneNumber = "0979933841"; 
+            prompt("Số điện thoại của tôi là:", phoneNumber);
+        }
+    </script>
+</body>
+
+</html>
